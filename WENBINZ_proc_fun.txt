@@ -1,0 +1,25 @@
+The Linux kernel you are running
+  cat /proc/version
+  Linux version 3.5.0-17-generic (buildd@roseapple) (gcc version 4.7.2 (Ubun  tu/Linaro 4.7.2-2ubuntu1) ) #28-Ubuntu SMP Tue Oct 9 19:32:08 UTC 2012
+
+Whether or not kernel supports ext3 filesystems
+  cat /proc/filesystems
+  yes
+
+The size of your swap space
+ cat /proc/swaps
+ 1046524
+
+ After ssh-ed into eniac, the command that initiated that process
+  cat /proc/[pid]/cmdline
+  ssh eniac
+
+  After you have opened up firfox, the command that initiated that process
+  cat /proc/[pid]/cmdline
+  /url/lib/firefox/firefox
+
+  Speed of your first processor
+    cat /proc/cpuinfo
+    2093.25
+
+
